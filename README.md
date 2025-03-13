@@ -11,16 +11,22 @@
 <img src="https://img.shields.io/badge/Tool-Git-Informational?logo=git&color=%23f15024">
 </div>
 
-## 🎧 Table of Contents
+### 🎧 Table of Contents
 
 - [🪪 More About Me](#moreaboutme)
 - [📑 Study Areas](#studyareas)
 
-### 🪪 More About Me <a name="moreaboutme"></a>
+### More About me <a name="moreaboutme"></a>
+```java
+class LyamTang extends SoftwareEngineer{
+    String[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
+    String[] interests = {"Traveling", "Gym", "Music", "Cooking", "Anime"};
 
-- born in Mainland China 🇨🇳 & raised in Hong Kong 🇭🇰
-- currently a student of HKUST pursing Bachelor of Computer Science 💻
-- love travel 🗺️, exercises 🏸, read 📚, sing 🎤, study 📖, fashion 🛍️ & animes (as u expected) 🌈
+    public static void main(String[] args) {
+        System.out.println("Hiii my friend, thank you for stopping by and wish you a good day! :)");
+    }
+}
+```
 
 ### 📑 Study Areas <a name="studyareas"></a>
 
