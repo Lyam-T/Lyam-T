@@ -12,7 +12,8 @@
 <img src="https://img.shields.io/badge/Code-C%2B%2B-informational?style=flat&logo=cplusplus&logoColor=%23659ad2">
 <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python">
 <img src="https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go">
-<img src="https://img.shields.io/badge/Code-Scala3-informational?style=flat&logo=scala&logoColor=%23d23423&color=%23d23423"><br>
+<img src="https://img.shields.io/badge/Code-Scala3-informational?style=flat&logo=scala&logoColor=%23d23423&color=%23d23423">
+<img src="https://img.shields.io/badge/Code-MySQL-Informational?logo=mysql&color=blue"><br>
 <img src="https://img.shields.io/badge/Tool-Vim-informational?style=flat&logo=vim&logoColor=%237eb450&color=%237eb450">
 <img src="https://img.shields.io/badge/Tool-Hammerspoon-Informational?color=%23FFCE1B">
 <img src="https://img.shields.io/badge/Tool-Git-Informational?logo=git&color=%23f15024">
