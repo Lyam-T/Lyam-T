@@ -22,8 +22,14 @@ class LyamTang extends SoftwareEngineer{
     String[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
     String[] interests = {"Traveling", "Gym", "Music", "Cooking", "Anime"};
 
+    University[] educations = {"Hong Kong University of Science and Technology", 
+                              "National University of Singapore"};
+    
     public static void main(String[] args) {
         System.out.println("Hiii my friend, thank you for stopping by and wish you a good day! :)");
+        while (true) {
+            FutureSoftwareEngineer.study();
+        }
     }
 }
 ```
