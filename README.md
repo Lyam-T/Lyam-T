@@ -18,10 +18,9 @@
 
 ### More About me <a name="moreaboutme"></a>
 ```java
-class LyamTang extends SoftwareEngineer{
-    String[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
-    String[] interests = {"Traveling", "Gym", "Music", "Cooking", "Anime"};
-
+class LyamTang extends FutureSoftwareEngineer{
+    Language[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
+    Interest[] interests = {"Traveling", "Gym", "Music", "Cooking", "Anime"};
     University[] educations = {"Hong Kong University of Science and Technology", 
                               "National University of Singapore"};
     
