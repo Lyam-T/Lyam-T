@@ -1,6 +1,13 @@
 # Yooo~ Sup, this is Lyam Tang (*☻-☻*) 🧑🏻‍💻
 
 <div align="center">
+<img src="https://img.shields.io/badge/Author-Lyam-Informational?logo=github&color=blue
+">
+</div>
+
+---
+
+<div align="center">
 <img src="https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java">
 <img src="https://img.shields.io/badge/Code-C%2B%2B-informational?style=flat&logo=cplusplus&logoColor=%23659ad2">
 <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python">
