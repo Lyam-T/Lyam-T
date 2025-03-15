@@ -35,7 +35,3 @@ class LyamTang extends FutureSoftwareEngineer{
     }
 }
 ```
-
-### 👾 Study Areas
-
-- interested in and currently learning some basic of web programming, machine learning, data mining, artificial intelligence, programming language & ui/ux design
