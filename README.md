@@ -1,10 +1,5 @@
 # Yooo~ Sup, this is Lyam Tang (*☻-☻*) 🧑🏻‍💻
 
-<div align="center">
-<img src="https://img.shields.io/badge/Author-Lyam-Informational?logo=github&color=blue
-">
-</div>
-
 ---
 
 <div align="center">
