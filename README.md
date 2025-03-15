@@ -1,4 +1,6 @@
-# Yooo~ Sup, this is Lyam Tang (*☻-☻*) 🧑🏻‍💻
+<div align="center">
+<h1> Hi my friends, I'm <font color="#6495ed">Lyam Tang</font> 👋🏼</h1>
+</div>
 
 ---
 
