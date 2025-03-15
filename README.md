@@ -14,16 +14,27 @@
 <img src="https://img.shields.io/badge/Tool-Git-Informational?logo=git&color=%23f15024">
 </div>
 
-## 🎧 Table of Contents
+### 🎧 Table of Contents
 
 - [🪪 More About Me](#moreaboutme)
 - [📑 Study Areas](#studyareas)
 
-### 🪪 More About Me <a name="moreaboutme"></a>
-
-- born in Mainland China 🇨🇳 & raised in Hong Kong 🇭🇰
-- currently a student of HKUST pursing Bachelor of Computer Science 💻
-- love travel 🗺️, exercises 🏸, read 📚, sing 🎤, study 📖, fashion 🛍️ & animes (as u expected) 🌈
+### More About me <a name="moreaboutme"></a>
+```java
+class LyamTang extends FutureSoftwareEngineer{
+    Language[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
+    Interest[] interests = {"Traveling", "Gym", "Music", "Cooking", "Anime"};
+    University[] educations = {"Hong Kong University of Science and Technology", 
+                              "National University of Singapore"};
+    
+    public static void main(String[] args) {
+        System.out.println("Hiii my friend, thank you for stopping by and wish you a good day! :)");
+        while (true) {
+            FutureSoftwareEngineer.study();
+        }
+    }
+}
+```
 
 ### 📑 Study Areas <a name="studyareas"></a>
 
