@@ -16,12 +16,10 @@
 <img src="https://img.shields.io/badge/Tool-Git-Informational?logo=git&color=%23f15024">
 </div>
 
-### 🎧 Table of Contents
+---
 
-- [🪪 More About Me](#moreaboutme)
-- [📑 Study Areas](#studyareas)
+### 🏖️ More About me
 
-### More About me <a name="moreaboutme"></a>
 ```java
 class LyamTang extends FutureSoftwareEngineer{
     Language[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
@@ -38,6 +36,6 @@ class LyamTang extends FutureSoftwareEngineer{
 }
 ```
 
-### 📑 Study Areas <a name="studyareas"></a>
+### 👾 Study Areas
 
 - interested in and currently learning some basic of web programming, machine learning, data mining, artificial intelligence, programming language & ui/ux design
