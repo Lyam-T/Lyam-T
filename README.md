@@ -1,4 +1,6 @@
-# Yooo~ Sup, this is Lyam Tang (*☻-☻*) 🧑🏻‍💻
+<div align="center">
+<h1> Hi my friends, I'm <font color="#6495ed">Lyam Tang</font> 👋🏼</h1>
+</div>
 
 ---
 
@@ -14,12 +16,10 @@
 <img src="https://img.shields.io/badge/Tool-Git-Informational?logo=git&color=%23f15024">
 </div>
 
-### 🎧 Table of Contents
+---
 
-- [🪪 More About Me](#moreaboutme)
-- [📑 Study Areas](#studyareas)
+### 🏖️ More About me
 
-### More About me <a name="moreaboutme"></a>
 ```java
 class LyamTang extends FutureSoftwareEngineer{
     Language[] spokenLanguages = {"English", "Cantonese", "Mandarin"};
@@ -35,7 +35,3 @@ class LyamTang extends FutureSoftwareEngineer{
     }
 }
 ```
-
-### 📑 Study Areas <a name="studyareas"></a>
-
-- interested in and currently learning some basic of web programming, machine learning, data mining, artificial intelligence, programming language & ui/ux design
