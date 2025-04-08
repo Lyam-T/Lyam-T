@@ -22,7 +22,6 @@ jobs:
 
           # Basic metrics setup
           config_timezone: Asia/HongKong
-          config_display: columns
 
           # Source configuration - include all your repos (public and private)
           user: "Lyam-T"
