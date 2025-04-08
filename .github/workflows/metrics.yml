@@ -21,3 +21,5 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_recent_days: 366
