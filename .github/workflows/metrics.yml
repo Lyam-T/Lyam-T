@@ -25,7 +25,7 @@ jobs:
 
           # Source configuration - include all your repos (public and private)
           source: "user"
-          user: "your-github-username"
+          user: "Lyam-T"
           include_all_commits: "yes"
 
           # Isocalendar plugin
