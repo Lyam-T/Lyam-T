@@ -18,9 +18,6 @@
 
 ---
 
-<p align="center"><img src="/github-metrics.svg" alt="Metrics" width="100%"></p>  
-
----
 ### 🏖️ More About me
 
 ```java
@@ -39,4 +36,9 @@ class LyamTang extends FutureSoftwareEngineer{
 }
 ```
 
+---
+
+<p align="center">
+  <img src="metrics.png" alt="Metrics" style="max-width: 100%; height: auto;">
+</p>
 
