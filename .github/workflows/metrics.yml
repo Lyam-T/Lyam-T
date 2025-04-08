@@ -18,6 +18,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/HongKong
+          config_display: columns
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
