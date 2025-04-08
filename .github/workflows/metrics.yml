@@ -25,9 +25,11 @@ jobs:
           config_display: columns
 
           # Source configuration - include all your repos (public and private)
-          source: "user"
           user: "Lyam-T"
-          include_all_commits: "yes"
+          
+          # Repository filtering
+          repositories_skipped: ""  # Clear default skips
+          repositories_forks: true  # Include forked repos
 
           # Isocalendar plugin
           plugin_isocalendar: yes
