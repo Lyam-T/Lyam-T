@@ -14,18 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Gather all the necessary data
-      - name: Gather data 
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          config_timezone: Asia/Hong_Kong
-          user: "Lyam-T"
-          repositories_skipped: ""
-          repositories_affiliations: "owner,collaborator,organization_member"
-          repositories_forks: true
-
       # Generate separate SVGs
       - name: Isocalendar SVG
         uses: lowlighter/metrics@latest
