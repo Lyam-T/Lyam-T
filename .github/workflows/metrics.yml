@@ -48,6 +48,6 @@ jobs:
       - name: Debug - Verify Repos
         run: |
           echo "Processed repositories:"
-          jq -r '.repositories[] | .name' metrics.json
+          jq -r '.repositories[] | .name' /metrics_renders/metrics.json
           echo "Total: $(jq '.repositories | length' metrics.json)"
           
