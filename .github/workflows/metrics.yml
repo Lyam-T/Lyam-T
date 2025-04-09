@@ -18,18 +18,20 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          # debug 
+
+          # Base setting
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_output: "png"
           config_display: columns
+          config_timezone: Asia/Hong_Kong
           filename: "metrics.png"
 
-          # Basic metrics setup
-          config_timezone: Asia/HongKong
 
           # Source configuration - include all your repos (public and private)
           user: "Lyam-T"
-          
+
           # Repository filtering
           repositories_skipped: ""  # Clear default skips
           repositories_affiliations: "owner,collaborator,organization_member"
@@ -43,7 +45,4 @@ jobs:
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_recent_days: 366
-          plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_indepth_custom: "Lyam-T/cs3211-assignment1-e1496863_e1496889"
-          plugin_languages_ignored: "html,lua,vim script,shell,batchfile"
           
