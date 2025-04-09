@@ -23,8 +23,6 @@ jobs:
           config_output: "json"
           config_display: columns
           filename: "metrics.png"
-          config_output_png_width: 1200
-          config_output_png_background: 0
 
           # Basic metrics setup
           config_timezone: Asia/HongKong
