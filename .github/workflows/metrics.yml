@@ -44,4 +44,6 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_recent_days: 366
           plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_indepth_custom: "Lyam-T/cs3211-assignment1-e1496863_e1496889"
+          plugin_languages_ignored: "html,lua,vim script,shell,batchfile"
           
