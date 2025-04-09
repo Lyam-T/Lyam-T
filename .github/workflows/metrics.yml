@@ -20,9 +20,9 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           # debug 
-          config_output: "json"
+          config_output: "png"
           config_display: columns
-          filename: "metrics.json"
+          filename: "metrics.png"
 
           # Basic metrics setup
           config_timezone: Asia/HongKong
@@ -44,19 +44,4 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_recent_days: 366
           plugin_languages_analysis_timeout_repositories: 15
-
-      - name: Debug Repository Access
-        run: |
-          echo "=== Repository Verification ==="
-          echo "JSON output path: $(ls -la)"
-          echo "File content start:"
-          head -n 50 metrics.json
-          echo "..."
-          
-          echo "Processed repositories:"
-          jq -r '.repositories[] | .name' metrics.json
-          echo "Total: $(jq '.repositories | length' metrics.json)"
-          
-          echo "Private repos detected:"
-          jq -r '.repositories[] | select(.private == true) | .name' metrics.json
           
