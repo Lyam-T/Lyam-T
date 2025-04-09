@@ -19,7 +19,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          config_output: "png"
+          # debug 
+          config_output: "json"
           config_display: columns
           filename: "metrics.png"
           config_output_png_width: 1200
@@ -33,6 +34,7 @@ jobs:
           
           # Repository filtering
           repositories_skipped: ""  # Clear default skips
+          repositories_affiliations: "owner,collaborator,organization_member"
           repositories_forks: true  # Include forked repos
 
           # Isocalendar plugin
@@ -43,6 +45,11 @@ jobs:
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_recent_days: 366
-          
+          plugin_languages_analysis_timeout_repositories: 15
 
+      - name: Debug - Verify Repos
+        run: |
+          echo "Processed repositories:"
+          jq -r '.repositories[] | .name' metrics.json
+          echo "Total: $(jq '.repositories | length' metrics.json)"
           
