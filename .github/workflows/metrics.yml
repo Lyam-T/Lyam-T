@@ -27,7 +27,6 @@ jobs:
           repositories_affiliations: "owner,collaborator,organization_member"
           repositories_forks: true
           filename: "metrics/isocalendar.svg"
-          config_display: "columns"
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
@@ -43,7 +42,6 @@ jobs:
           repositories_affiliations: "owner,collaborator,organization_member"
           repositories_forks: true
           filename: "metrics/followup.svg"
-          config_display: "columns"
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
@@ -60,7 +58,6 @@ jobs:
           repositories_affiliations: "owner,collaborator,organization_member"
           repositories_forks: true
           filename: "metrics/habits.svg"
-          config_display: "columns"
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: class
