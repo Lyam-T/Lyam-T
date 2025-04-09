@@ -38,7 +38,8 @@ class LyamTang extends FutureSoftwareEngineer{
 
 ---
 
-<p align="center">
-  <img src="metrics.png" alt="Metrics" style="max-width: 100%; height: auto;">
-</p>
-
+<div align=center>
+<p><img src="metrics/isocalendar.svg" alt="Activity Calendar" style="width:480"></p>
+<p><img src="metrics/followup.svg" alt="Repository Followup" style="width:480"></p>
+<p><img src="metrics/habits.svg" alt="Coding Habits" style="width:480"></p>
+</div>
